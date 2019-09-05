@@ -1,0 +1,68 @@
+/* Todos los elementos con atributo "componentes" tienen un borde negro */
+[componentes] {
+	border: 2px solid black;
+}
+/* Todos los elementos con atributo "componentes" tienen color rojo */
+[componentes="200"]{
+	color: red; 
+}
+/* Todos los elementos con atributo "pizca" tienen un color de texto negro */
+[componentes="pizca"]{
+	color: #111313 ; 
+}
+
+[componentes="unpoco"]{
+	background-color: #3ABCBA ;
+}
+
+[preparacion]{
+	color: #F50606 ; 
+}
+
+
+ul{background:#B2F2DE;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h1 {
+  text-shadow: 1px 1px 5px red;
+  text-indent: 50px;
+}
+
+h2{
+	text-shadow: 2px 2px 5px #B51EC2;
+	text-indent: 50px;
+}
+h3{
+	text-shadow: 2px 2px 5px #B51EC2;
+	text-indent: 50px;
+}
+
+p{
+	text-shadow: 2px 2px 5px #B51EC2;
+	color:#FFFFFF ;
+}
+/* Todos los elementos después de h3 tienen un color de texto negro y un fondo blanco, 
+para diferenciar del resto de <p> que tienen el color blanco y un sombreado rosa*/
+h3 + p{
+	color:black;
+	text-shadow: 2px 2px 5px #FFFFFF;
+}
+
+[#kk]{
+	text-shadow: : white !important;
+}	
+
+li {
+  text-indent: 50px;
+}
+
+div{
+	text-indent: 50px;
+}
